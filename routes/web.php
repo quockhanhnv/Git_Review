@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $data = [];
-
+    $response = [];
     return view('welcome', compact('data'));
 });
