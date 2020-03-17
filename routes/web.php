@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $data = [];
-    $response = [];
+    //feature login
+    
     return view('welcome', compact('data'));
 });
