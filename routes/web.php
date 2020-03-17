@@ -15,9 +15,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
+
     public function jump()
     {
-        
+
+
+
+    public function Horse() {
+            echo 'run';
+>>>>>>> horse run method
     }
 
     return view('welcome', compact('data'));
