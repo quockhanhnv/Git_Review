@@ -14,8 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $data = [];
-    //feature login
+
+    public function jump()
+    {
+        
+    }
 
     return view('welcome', compact('data'));
 });
