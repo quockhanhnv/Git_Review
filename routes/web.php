@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    public function jump()
+    {
+        
+    }
+
+    return view('welcome', compact('data'));
 });
